@@ -39,12 +39,15 @@
     </bean>
 
     <!-- DAO -->
+    <!--
     <bean id="userDAO" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="com.hehaoyisheng.bcgame.dao.UserDAO"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactory" />
     </bean>
+    -->
 
     <!-- 调度 -->
+    <!--
     <bean id="buchangJob" class="com.hehaoyisheng.bcgame.job.BuchangJob" />
 
 
@@ -70,4 +73,5 @@
         </property>
         <property name="autoStartup" value="true" />
     </bean>
+    -->
 </beans>
